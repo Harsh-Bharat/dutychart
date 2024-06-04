@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="dutychart2.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+<body style="background-image: url(MAP.png); background-repeat:no-repeat; font-family: 'Montserrat';">
+    <div class="nav">
+        <img src="Group.png" alt="#">
+        <h1>DASHBOARD</h1>
+        <h1>DUTY CHART</h1>
+        <h1>ADD/REMOVE STAFF</h1>
+        <h1>STAFF MEMBERS</h1>
+        <img src="user.svg" alt="#">
+    </div>
+    <br><br><br>
+    <div class="selectstation">
+     <h2>SELECT POLICE STATION</h2>
+        <form action="/action_page.PH.p">
+            <select class="select" style="background-color: #EBEBEB; width: 150px; border: none;">
+              <option value="volvo">AREA</option>
+              <option value="saab">AREA</option>
+              <option value="opel">AREA</option>
+              <option value="audi">AREA</option>
+            </select>
+            <input type="submit" value="SUBMIT" class="select" style="background-color: #009ADC; color: #fff; text-align: center; margin: 20px;width: 150px; border: none;">
+            
+          </form>
+          
+    </div>
+    <br><br>
+    <div class="task">
+        <h2>ADD/REMOVE STAFF</h2>
+        <!-- ONE MAIN DIV  -->
+       
+        <div class="names">
+<label for="text">NAME</label>
+<input type="text" class=" inputclass" style="border-radius: 30px; border-color: #b7e2e7;">
+<label for="text">PH. NO.</label>
+<input type="text" class=" inputclass" style="border-radius: 30px; border-color: #b7e2e7;">
+        </div>
+        <br><br><br>
+        <div class="buttons">
+                <button  class="button">ADD</button>
+                <button class="button">REMOVE</button>
+        </div>
+        <p style="color: green;">STAFF MEMBER HAS BEEN ADDED SUCCESSFULLY!</p>
+    </div>
+</body>
+</html>
